@@ -4,6 +4,160 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background=" #C8EDFE"
     tools:context=".list_flower">
+
+    <TextView
+        android:id="@+id/title_flower_tree"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="4dp"
+        android:text="Leaf Tree"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        app:layout_constraintStart_toEndOf="@+id/img_tree"
+        app:layout_constraintTop_toTopOf="@+id/img_tree" />
+
+    <TextView
+        android:id="@+id/title_flower_lavender4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="76dp"
+        android:layout_marginTop="4dp"
+        android:text="Yellow"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        app:layout_constraintStart_toEndOf="@+id/img_yellow"
+        app:layout_constraintTop_toTopOf="@+id/img_yellow" />
+
+    <TextView
+        android:id="@+id/price_lavender4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="10$"
+        android:textColor="#000000"
+        android:textSize="18dp"
+        app:layout_constraintBottom_toBottomOf="@+id/img_yellow"
+        app:layout_constraintEnd_toEndOf="@+id/title_flower_lavender3"
+        app:layout_constraintHorizontal_bias="0.586"
+        app:layout_constraintStart_toStartOf="@+id/title_flower_lavender3" />
+
+    <TextView
+        android:id="@+id/title_flower_lavender3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="76dp"
+        android:layout_marginTop="4dp"
+        android:text="Yellow"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        app:layout_constraintStart_toEndOf="@+id/img_yellow"
+        app:layout_constraintTop_toTopOf="@+id/img_yellow" />
+
+    <TextView
+        android:id="@+id/price_lavender3"
+        android:layout_width="36dp"
+        android:layout_height="28dp"
+        android:text="10$"
+        android:textColor="#000000"
+        android:textSize="18dp"
+        app:layout_constraintBottom_toBottomOf="@+id/img_tree"
+        app:layout_constraintEnd_toEndOf="@+id/title_flower_tree"
+        app:layout_constraintStart_toStartOf="@+id/title_flower_tree" />
+
+    <TextView
+        android:id="@+id/price_lavender2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="10$"
+        android:textColor="#000000"
+        android:textSize="18dp"
+        app:layout_constraintBottom_toBottomOf="@+id/img_lavender_light"
+        app:layout_constraintEnd_toEndOf="@+id/title_flower_lavender2"
+        app:layout_constraintHorizontal_bias="0.242"
+        app:layout_constraintStart_toStartOf="@+id/title_flower_lavender2" />
+
+    <TextView
+        android:id="@+id/title_flower_lavender2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="84dp"
+        android:text="Lavender Light"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        app:layout_constraintStart_toEndOf="@+id/img_lavender_light"
+        app:layout_constraintTop_toTopOf="@+id/img_lavender_light" />
+
+    <ImageView
+        android:id="@+id/img_lavender"
+        android:layout_width="111dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="60dp"
+        android:transitionName="fade"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/bg_flower_1" />
+
+    <TextView
+        android:id="@+id/title_flower_lavender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="84dp"
+        android:layout_marginTop="8dp"
+        android:text="Lavender"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        app:layout_constraintStart_toEndOf="@+id/img_lavender"
+        app:layout_constraintTop_toTopOf="@+id/img_lavender" />
+
+    <TextView
+        android:id="@+id/price_lavender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="10$"
+        android:textColor="#000000"
+        android:textSize="18dp"
+        app:layout_constraintBottom_toBottomOf="@+id/img_lavender"
+        app:layout_constraintEnd_toEndOf="@+id/title_flower_lavender"
+        app:layout_constraintHorizontal_bias="0.471"
+        app:layout_constraintStart_toStartOf="@+id/title_flower_lavender" />
+
+    <ImageView
+        android:id="@+id/img_lavender_light"
+        android:layout_width="117dp"
+        android:layout_height="97dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="60dp"
+        android:transitionName="fade"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/img_lavender"
+        app:srcCompat="@drawable/lavender_light" />
+
+    <ImageView
+        android:id="@+id/img_yellow"
+        android:layout_width="131dp"
+        android:layout_height="112dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="60dp"
+        android:transitionName="fade"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/img_lavender_light"
+        app:srcCompat="@drawable/flower_background" />
+
+    <ImageView
+        android:id="@+id/img_tree"
+        android:layout_width="110dp"
+        android:layout_height="104dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="48dp"
+        android:transitionName="fade"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/img_yellow"
+        app:srcCompat="@drawable/tree" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

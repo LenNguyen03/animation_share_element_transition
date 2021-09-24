@@ -10,6 +10,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Animation_share_element_transition">
         <activity
+            android:name=".share_element_tree"
+            android:exported="true" />
+        <activity
+            android:name=".share_element_yellow"
+            android:exported="true" />
+        <activity
+            android:name=".share_element_lavender_light"
+            android:exported="true" />
+        <activity
+            android:name=".share_element_lavender"
+            android:exported="true" />
+        <activity
             android:name=".list_flower"
             android:exported="true" />
         <activity
