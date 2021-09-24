@@ -10,22 +10,26 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Animation_share_element_transition">
         <activity
-            android:name=".share_element_tree"
+            android:name=".layout1.share_element_tree"
             android:exported="true" />
         <activity
-            android:name=".share_element_yellow"
+            android:name=".layout1.share_element_yellow"
             android:exported="true" />
         <activity
-            android:name=".share_element_lavender_light"
+            android:name=".layout1.share_element_lavender_light"
             android:exported="true" />
         <activity
-            android:name=".share_element_lavender"
+            android:name=".layout1.share_element_lavender"
             android:exported="true" />
         <activity
-            android:name=".list_flower"
+            android:name=".layout1.list_flower"
             android:exported="true" />
         <activity
-            android:name=".MainActivity"
+            android:name=".layout1.MainActivity"
+            android:exported="true">
+
+        </activity>
+        <activity android:name=".MusicAppRecycle"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -33,6 +37,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".MusicAppScreen1">
+
+        </activity>
+
+
     </application>
 
 </manifest>

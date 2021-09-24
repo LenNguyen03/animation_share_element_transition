@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#C8EDFE"
-    tools:context=".share_element_lavender_light">
+    tools:context=".layout1.share_element_lavender_light">
 
     <TextView
         android:id="@+id/textView3"

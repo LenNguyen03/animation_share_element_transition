@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background=" #C8EDFE"
-    tools:context=".list_flower">
+    tools:context=".layout1.list_flower">
 
     <TextView
         android:id="@+id/title_flower_tree"

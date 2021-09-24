@@ -5,10 +5,15 @@
       <map>
         <entry key="..\:/Android_Project_Workspace/animation_share_element_transition/app/src/main/res/layout/activity_list_flower.xml" value="0.165" />
         <entry key="..\:/Android_Project_Workspace/animation_share_element_transition/app/src/main/res/layout/activity_main.xml" value="0.165" />
+        <entry key="..\:/Android_Project_Workspace/animation_share_element_transition/app/src/main/res/layout/activity_music_app_list.xml" value="0.1" />
+        <entry key="..\:/Android_Project_Workspace/animation_share_element_transition/app/src/main/res/layout/activity_music_app_recycle.xml" value="0.165" />
+        <entry key="..\:/Android_Project_Workspace/animation_share_element_transition/app/src/main/res/layout/activity_music_app_screen1.xml" value="0.13297872340425532" />
+        <entry key="..\:/Android_Project_Workspace/animation_share_element_transition/app/src/main/res/layout/activity_music_app_screen2.xml" value="0.23958333333333334" />
         <entry key="..\:/Android_Project_Workspace/animation_share_element_transition/app/src/main/res/layout/activity_share_element_lavender.xml" value="0.165" />
         <entry key="..\:/Android_Project_Workspace/animation_share_element_transition/app/src/main/res/layout/activity_share_element_lavender_light.xml" value="0.1" />
         <entry key="..\:/Android_Project_Workspace/animation_share_element_transition/app/src/main/res/layout/activity_share_element_tree.xml" value="0.10099637681159421" />
         <entry key="..\:/Android_Project_Workspace/animation_share_element_transition/app/src/main/res/layout/activity_share_element_yellow.xml" value="0.10099637681159421" />
+        <entry key="..\:/Android_Project_Workspace/animation_share_element_transition/app/src/main/res/layout/recycle_music_list.xml" value="0.165" />
       </map>
     </option>
   </component>

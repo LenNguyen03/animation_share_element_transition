@@ -1,4 +1,4 @@
-package com.se.animation_share_element_transition;
+package com.se.animation_share_element_transition.layout1;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.app.ActivityOptionsCompat;
@@ -9,6 +9,8 @@ import android.os.Bundle;
 import android.transition.Fade;
 import android.view.View;
 import android.widget.ImageView;
+
+import com.se.animation_share_element_transition.R;
 
 public class list_flower extends AppCompatActivity {
 

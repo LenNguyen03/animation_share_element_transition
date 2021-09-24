@@ -1,10 +1,12 @@
-package com.se.animation_share_element_transition;
+package com.se.animation_share_element_transition.layout1;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+
+import com.se.animation_share_element_transition.R;
 
 public class MainActivity extends AppCompatActivity {
 
